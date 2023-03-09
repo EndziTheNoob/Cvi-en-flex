@@ -4,10 +4,15 @@
 :before {
   box-sizing: border-box;
 }
+
 .container {
   border: 1px solid #bfd6e6;
   background-color: #dde9f3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .activity {
   margin: 10px;
   background-size: contain;
